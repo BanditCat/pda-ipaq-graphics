@@ -1,0 +1,2 @@
+#include "cur\main.cpp"
+

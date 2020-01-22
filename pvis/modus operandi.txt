@@ -1,0 +1,17 @@
+Alpha blending using lookup tables:
+
+15 bit-planes on fb. 
+
+templatized inline per-pixel functions for arbritary endianess/RGB GRB BGR.  
+
+leverage oo-goodness for optimized undrawing on double-buffered displays.
+
+direct interface to X?
+
+
+
+sub-pixel bressenham:
+
+calculate firstpixel/lastpixel 
+
+

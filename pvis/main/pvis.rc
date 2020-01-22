@@ -1,0 +1,29 @@
+#include <commctrl.h>
+#include <winuser.h>
+#include <winver.h>
+
+#include "resource.h"
+
+#define SHMENUBAR RCDATA	
+#define I_IMAGENONE (-2)
+#define NOMENU 0xFFFF
+#define IDS_SHNEW	 1
+#define IDM_SHAREDNEW 10
+#define IDM_SHAREDNEWDEFAULT 11
+#define AFXCE_IDD_SAVEMODIFIEDDLG 28701
+#define _INC_WINDOWS
+
+#ifdef IDC_STATIC
+#undef IDC_STATIC
+#endif
+#define IDC_STATIC      (-1)
+
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+IDI_PICON       ICON    DISCARDABLE     "pvis.ico"
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+ IDS_APP_TITLE  "PVis"
+END
